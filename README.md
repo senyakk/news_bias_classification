@@ -4,9 +4,11 @@ This project focuses on analyzing and fine-tuning large language models (LLMs) t
 
 This project uses both fine-tuning and prompt engineering methods for political bias classification in news articles. The experiments involve:
 
-- Baseline and Fine-Tuning of LLMs such as RoBERTa and Gemma.
+- Baseline and Fine-Tuning of two LLMS: RoBERTa (encoder-only) and Gemma-2b (decoder-only).
 - Prompt Engineering to guide model outputs for bias detection.
 - LoRA (Low-Rank Adaptation) as a PEFT technique to improve model efficiency during fine-tuning.
+
+The best accuracy results for the selected dataset were 63\%-64\% with similar performance for the models, especially in the LoRA condition. Essentially, Gemma-2b can perform on par with RoBERTa for a given task, native for encoders.
 
 ---
 
