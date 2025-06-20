@@ -82,6 +82,30 @@ Install dependencies with: ```pip install -r requirements.txt```
 
 ---
 
+## Running the Code
+
+### 1. Data Preprocessing
+To preprocess the raw data, run the following script:
+
+```bash
+python src/data/main.py
+```
+This will clean and process the raw dataset, saving the output to `data/processed/clean_data.csv`.
+
+### 2. Model Training and Experiments
+All model training and experiments are organized in Jupyter notebooks. Open the relevant notebook in the `Notebooks/` directory and run the cells interactively:
+
+- For Gemma experiments: use notebooks in `Notebooks/Gemma/`
+- For RoBERTa experiments: use notebooks in `Notebooks/Roberta/`
+- For model comparison and analysis: use `Notebooks/Data analysis/model_comparison.ipynb`
+
+Each notebook contains step-by-step code for training, fine-tuning, prompt engineering, and evaluation.
+
+### 3. Viewing Results
+Results from model runs are saved in the `results/` directory as CSV or JSON files. You can open these files directly or use the analysis notebook to visualize and compare model performance.
+
+---
+
 # Limitations
 
- The systems tailored to classifying the political bias might suffer greatly from the lack of reliability or scalability. In particular, our system limitation is the spatially limited source of the data – the political environment of the USA. In the context of USA's politics, the distinction "left" or "right" might take the form of e.g. "pro-democrat" or "pro-republican", which loses scalability for other political contexts, outside of this environment. 
+ The systems tailored to classifying the political bias might suffer greatly from the lack of reliability or scalability. In particular, our system limitation is the spatially limited source of the data – the political environment of the USA. In the context of USA's politics, the distinction "left" or "right" might take the form of e.g. "pro-democrat" or "pro-republican", which loses scalability for other political contexts, outside of this environment.
