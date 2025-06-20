@@ -37,12 +37,14 @@ of news coverage that has experts tagging the ideological affiliation of the vie
 ├── notebooks/: Folder with the Jupyter notebooks.
 │ └── Data analysis/: Notebook for model comparison.
 │   └── `model_comparison.ipynb`
+│
 │ ├── Gemma/: Notebooks for Gemma model experiments.
 │ │ ├── `gemma_baseline.ipynb`: Baseline model notebook.
 │ │ ├── `gemma_lora.ipynb`: LoRA fine-tuning for Gemma.
 │ │ ├── `gemma-fine-tuned.ipynb`: Fully fine-tuned Gemma model.
 │ │ ├── `prompt_eng_no_center.ipynb`: Prompt engineering no center.
 │ │ └── `prompt_eng_version_2.ipynb`: Includes 2 versions of prompt engineering.
+│ │ 
 │ └── Roberta/: Notebooks for RoBERTa model experiments.
 │   ├── `Roberta_lora.ipynb`: LoRA fine-tuning for RoBERTa.
 │   ├── `Roberta-baseline.ipynb`: Baseline model notebook.
