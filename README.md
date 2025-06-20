@@ -10,6 +10,13 @@ This project uses both fine-tuning and prompt engineering methods for political 
 
 The best accuracy results for the selected dataset were 63%-64% with similar performance for the models, especially in the LoRA condition. Essentially, Gemma-2b can perform on par with RoBERTa for a given task, native for encoders.
 
+<div align="center">
+  <img width="560" alt="Screenshot 2025-06-20 at 10 46 10" src="(https://github.com/user-attachments/assets/1bfbd579-2a42-4dec-9d56-59388a3e2d2e)" />
+</div>
+
+![output](https://github.com/user-attachments/assets/1bfbd579-2a42-4dec-9d56-59388a3e2d2e)
+
+
 ---
 
 ## Data
