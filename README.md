@@ -76,9 +76,13 @@ Prerequisites:
 
 Python 3.8 or higher
 
-Required packages listed in requirements.txt
+Required packages listed in ```requirements.txt```
 
-Install dependencies with: ```pip install -r requirements.txt```
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
 
 ---
 
