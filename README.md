@@ -1,6 +1,6 @@
-# News Bias Classification: Encoder vs Decoder Models
+# US News Bias Classification: Encoder vs Decoder Models
 
-This project focuses on analyzing and fine-tuning large language models (LLMs) to classify political bias in text. The project includes various experiments with models such as RoBERTa and Gemma, along with prompt engineering techniques to improve classification performance.
+This project focuses on analyzing and fine-tuning large language models (LLMs) to classify political bias in text. Bias is classified as 'left', 'right', or 'center'. The project includes various experiments with models such as RoBERTa and Gemma, along with prompt engineering techniques to improve classification performance.
 
 This project uses both fine-tuning and prompt engineering methods for political bias classification in news articles. The experiments involve:
 
@@ -9,6 +9,13 @@ This project uses both fine-tuning and prompt engineering methods for political 
 - LoRA (Low-Rank Adaptation) as a PEFT technique to improve model efficiency during fine-tuning (by almost 30%).
 
 The best accuracy results for the selected dataset were 63%-64% with similar performance for the models, especially in the LoRA condition. Essentially, Gemma-2b can perform on par with RoBERTa for a given task, native for encoders.
+
+---
+
+## Data
+
+The dataset was obtained from [Allsides](https://github.com/irgroup/Qbias/blob/main/allsides_balanced_news_headlines-texts.csv), which is the aggregator
+of news coverage that has experts tagging the ideological affiliation of the viewpoints. The dataset contains 21,747 U.S. news samples. For bias rating, there are 47.2% samples tagged as left, 33.2% tagged as right, and 19.6% as center.
 
 ---
 
